@@ -7,7 +7,7 @@
   "author": "Pawan Samdani <pawan@eumentis.com>",
   "license": "MIT",
   "private": false,
-  "dependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "5.0.0",
     "@typescript-eslint/parser": "5.0.0",
     "eslint": "^8.7.0",
