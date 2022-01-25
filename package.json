@@ -1,0 +1,10 @@
+{
+  "name": "@eumentis/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config used @Eumentis",
+  "main": "index.js",
+  "repository": "https://github.com/eumentis/eslint-config.git",
+  "author": "Pawan Samdani <pawan@eumentis.com>",
+  "license": "MIT",
+  "private": false
+}
