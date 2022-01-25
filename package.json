@@ -3,10 +3,23 @@
   "version": "1.0.0",
   "description": "ESLint config used @Eumentis",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./react": "./react.js"
+  },
   "repository": "https://github.com/eumentis/eslint-config.git",
   "author": "Pawan Samdani <pawan@eumentis.com>",
+  "contributors": [
+    {
+      "name": "Ritesh Nemade",
+      "email": "ritesh@eumentis.com"
+    }
+  ],
   "license": "MIT",
-  "private": false,
+  "files": [
+    "index.js",
+    "react.js"
+  ],
   "dependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
@@ -22,5 +35,14 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "typescript": "^4.5.5"
-  }
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "javascript",
+    "typescript",
+    "code checker",
+    "code linter"
+  ]
 }
