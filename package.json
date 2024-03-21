@@ -7,7 +7,10 @@
     ".": "./index.js",
     "./react": "./react.js"
   },
-  "repository": "https://github.com/eumentis/eslint-config.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eumentis/eslint-config.git"
+  },
   "author": "Pawan Samdani <pawan@eumentis.com>",
   "contributors": [
     {
